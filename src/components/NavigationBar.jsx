@@ -32,7 +32,7 @@ const NavigationBar = () => {
 
       <form className="w-full max-w-lg">
         <label
-          for="default-search"
+          htmlFor="default-search"
           className="mb-2 text-lg font-medium text-gray-900 sr-only "
         >
           Search
@@ -49,9 +49,9 @@ const NavigationBar = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
                 />
               </svg>
